@@ -400,40 +400,6 @@ python flask_web_interface.py
 - `POST /predict_sign`: 버퍼된 특징으로 수어 예측
 - `POST /clear_buffer/<client_id>`: 클라이언트별 버퍼 클리어
 
-## 📈 성능 및 평가
-
-### 모델 성능 지표
-
-#### 예상 성능
-- **어휘 크기**: 500-1000개 수어 단어
-- **시퀀스 정확도**: 85-92% (데이터셋 품질에 따라)
-- **Token-level Accuracy**: 개별 수어 단어 정확도
-- **BLEU Score**: 시퀀스 유사도 측정
-
-#### 실시간 처리 성능
-- **실시간 처리**: 30 FPS (Intel GPU)
-- **지연시간**: < 100ms (로컬 처리)
-- **메모리 사용량**: 4-8GB (배치 크기에 따라)
-
-### 하드웨어별 성능 비교
-
-| 하드웨어 | YOLOv11 FPS | 포즈 추정 FPS | 수어 인식 지연시간 |
-|----------|-------------|---------------|-------------------|
-| Intel Arc A770 | 45-60 | 35-40 | ~50ms |
-| NVIDIA RTX 3070 | 50-70 | 40-45 | ~40ms |
-| Intel i7 CPU | 15-25 | 10-15 | ~200ms |
-
-### 모니터링 및 로깅
-
-```bash
-# TensorBoard 실행 (훈련 시)
-cd model
-tensorboard --logdir ./trained_models/logs
-
-# 실시간 서버 로그
-tail -f korean_sign_recognition.log
-```
-
 ## 🔧 문제 해결
 
 ### 모델 훈련 관련
@@ -641,13 +607,6 @@ korean-sign-language-recognition/
   - 연도: 2021
   - 용도: 연구 및 교육 목적
   - 상업적 사용 시 별도 라이선스 확인 필요
-
-## 📞 지원 및 연락처
-
-- **GitHub Issues**: 버그 리포트 및 기능 요청
-- **이메일**: [개발자 이메일]
-- **위키**: [프로젝트 위키 링크]
-- **데모**: [온라인 데모 링크]
 
 ## 📚 참고문헌
 
