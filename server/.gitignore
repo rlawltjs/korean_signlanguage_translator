@@ -1,2 +1,5 @@
 .venv
-yolo11n.pt
+*.pt
+captured_images/
+captured_videos/
+__pycache__/

@@ -534,16 +534,8 @@ class SignLanguageRecognizer:
                     "<UNK>",           # class_1
                     "<SOS>",           # class_2
                     "<EOS>",           # class_3
-                    "감사하다",         # class_4
-                    "감사합니다",       # class_5
-                    "나",              # class_6
-                    "만나다",          # class_7
-                    "만나서",          # class_8
-                    # "미안합니다",       # class_9
-                    "반갑다",          # class_10
-                    "안녕하세요",       # class_11
-                    "저",              # class_12
-                    # "죄송하다"         # class_13
+                    # class_to_idx.py에서 정의된 클래스 이름들
+                    # 수어 클래스 이름 추가
                 ]
                 print(f"📚 수동으로 정의된 클래스 이름 사용")
                 
