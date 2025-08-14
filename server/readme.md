@@ -299,11 +299,12 @@ python enhanced_pose_server.py \
 
 ## 프로젝트 구조
 
-
+```
 server/                              # 서버 및 클라이언트 코드
 ├── enhanced_pose_server.py          # 통합 포즈/수어 서버 (메인 서버)
 ├── enhanced_webcam_client.py        # 웹캠 클라이언트 (콘솔 버전)
 ├── flask_web_interface.py           # Flask 웹 인터페이스
+├── class_to_idx.py                  # 클래스 매핑 추출
 ├─ templates/                       # HTML 템플릿
 │   └── index.html                   # 웹 인터페이스 메인 페이지
 ├── models/                              # 학습된 모델 저장
