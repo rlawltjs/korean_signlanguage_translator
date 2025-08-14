@@ -1,4 +1,3 @@
-[readme.md](https://github.com/user-attachments/files/21775160/readme.md)
 # Korean Sign Language Recognition System
 # 한국 수어 인식 시스템
 
@@ -8,10 +7,8 @@ AIHub 데이터셋을 활용한 한국 수어 인식 및 실시간 번역 시스
 
 ### 실시간 수어 인식 예시
 <!-- 데모 영상을 추가해주세요 -->
-![데모 영상 3](./demo_videos/pose_estimation_demo.gif)
+https://github.com/user-attachments/assets/69441a40-d08f-4c6b-b093-d7609ce7eed6
 *실시간 웹캠을 통한 한국 수어 인식 및 번역*
-*Flask 기반 웹 인터페이스를 통한 수어 인식 제어*
-*COCO Wholebody 133개 키포인트 실시간 추정*
 
 ## 📋 목차
 
@@ -23,7 +20,6 @@ AIHub 데이터셋을 활용한 한국 수어 인식 및 실시간 번역 시스
 - [모델 훈련](#모델-훈련)
 - [서버 배포 및 실행](#서버-배포-및-실행)
 - [사용 방법](#사용-방법)
-
 - [문제 해결](#문제-해결)
 - [기여 방법](#기여-방법)
 
