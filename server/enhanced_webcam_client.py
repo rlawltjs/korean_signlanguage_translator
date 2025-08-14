@@ -93,7 +93,7 @@ def draw_sign_prediction_on_frame(frame, prediction_text, confidence, x=10, y=30
 class WebcamCapture:
     """웹캠 캡처 및 실시간 처리 클라이언트"""
     
-    def __init__(self, server_url="http://192.168.100.20:5000"):
+    def __init__(self, server_url="http://000.000.000.000:5000"):
         self.cap = None
         self.recording = False
         self.video_writer = None
