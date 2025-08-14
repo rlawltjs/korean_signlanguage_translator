@@ -2,4 +2,6 @@
 *.pt
 captured_images/
 captured_videos/
+camtured_datas/
+templetes/
 __pycache__/

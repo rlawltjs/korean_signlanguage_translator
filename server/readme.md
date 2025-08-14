@@ -101,6 +101,7 @@
 # 저장소 클론
 git clone https://github.com/rlawltjs/korean_signlanguage_translator.git
 cd korean_signlanguage_translator
+cd server
 
 # 가상환경 생성 및 활성화
 python -m venv venv
@@ -120,7 +121,7 @@ mim install mmcv
 mim install mmpose
 ```
 
-### 2. 모델 다운로드
+### 2. 모델 다운로드 (선택사항)
 
 ```bash
 # RTMW 포즈 추정 모델 다운로드
@@ -138,7 +139,31 @@ wget -P configs/wholebody_2d_keypoint/rtmpose/cocktail14/ \
   https://raw.githubusercontent.com/open-mmlab/mmpose/main/configs/wholebody_2d_keypoint/rtmpose/cocktail14/rtmw-l_8xb320-270e_cocktail14-384x288.py
 ```
 
-### 3. 서버 실행
+### 3. 클래스 매핑 확인
+
+model.pt에 저장된 클래스 매핑(class_to_idx) 정보를 확인하려면 아래 명령을 실행하세요.
+
+```bash
+python class_to_idx.py
+```
+
+class_to_idx.py 실행 결과로 출력된 클래스 이름 리스트를
+enhanced_pose_server.py의 self.class_names에 아래처럼 추가하세요:
+
+```python
+self.class_names = [
+    "<PAD>",           # class_0
+    "<UNK>",           # class_1
+    "<SOS>",           # class_2
+    "<EOS>",           # class_3
+    # 아래에 수어 클래스 이름 추가
+    # 예시
+    "나",              # class_4
+    ...
+]
+```
+
+### 4. 서버 실행
 
 ```bash
 cd server
@@ -150,7 +175,7 @@ python enhanced_pose_server.py \
   --port 5000
 ```
 
-### 4. 클라이언트 실행
+### 5. 클라이언트 실행
 
 #### 콘솔 버전
 ```bash
@@ -165,7 +190,7 @@ python flask_web_interface.py
 ```
 웹 브라우저에서 `http://localhost:8000` 접속
 
-### 5. 수어 인식 모델 (선택사항)
+### 6. 수어 인식 모델 (선택사항)
 
 OpenHands Transformer 수어 인식 모델을 사용하려면:
 
@@ -274,14 +299,13 @@ python enhanced_pose_server.py \
 
 ## 프로젝트 구조
 
-```
-korean_signlanguage_translator/
-├── server/                              # 서버 및 클라이언트 코드
-│   ├── enhanced_pose_server.py          # 통합 포즈/수어 서버 (메인 서버)
-│   ├── enhanced_webcam_client.py        # 웹캠 클라이언트 (콘솔 버전)
-│   ├── flask_web_interface.py           # Flask 웹 인터페이스
-│   └── templates/                       # HTML 템플릿
-│       └── index.html                   # 웹 인터페이스 메인 페이지
+
+server/                              # 서버 및 클라이언트 코드
+├── enhanced_pose_server.py          # 통합 포즈/수어 서버 (메인 서버)
+├── enhanced_webcam_client.py        # 웹캠 클라이언트 (콘솔 버전)
+├── flask_web_interface.py           # Flask 웹 인터페이스
+├─ templates/                       # HTML 템플릿
+│   └── index.html                   # 웹 인터페이스 메인 페이지
 ├── models/                              # 학습된 모델 저장
 │   └── rtmw-l_*.pth                    # RTMW 포즈 추정 모델
 ├── configs/                            # MMPose 설정 파일
