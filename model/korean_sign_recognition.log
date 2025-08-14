@@ -1,0 +1,427 @@
+2025-08-14 16:40:01,196 - data_preprocessor - INFO - 데이터셋 처리 시작...
+2025-08-14 16:40:01,198 - data_preprocessor - INFO - 발견된 MP4 파일: 320개
+2025-08-14 16:40:01,198 - data_preprocessor - INFO - 파일명 예시:
+2025-08-14 16:40:01,198 - data_preprocessor - INFO -   1. NIA_SL_SEN0254_REAL10_U.mp4
+2025-08-14 16:40:01,198 - data_preprocessor - INFO -   2. NIA_SL_SEN0254_REAL05_U.mp4
+2025-08-14 16:40:01,198 - data_preprocessor - INFO -   3. NIA_SL_SEN0254_REAL11_L.mp4
+2025-08-14 16:40:01,198 - root - ERROR - 실행 중 오류 발생: Invalid suffix '_morpheme.json'
+2025-08-14 16:40:49,059 - data_preprocessor - INFO - 데이터셋 처리 시작...
+2025-08-14 16:40:49,061 - data_preprocessor - INFO - 발견된 MP4 파일: 320개
+2025-08-14 16:40:49,061 - data_preprocessor - INFO - 파일명 예시:
+2025-08-14 16:40:49,061 - data_preprocessor - INFO -   1. NIA_SL_SEN0254_REAL10_U.mp4
+2025-08-14 16:40:49,061 - data_preprocessor - INFO -   2. NIA_SL_SEN0254_REAL05_U.mp4
+2025-08-14 16:40:49,061 - data_preprocessor - INFO -   3. NIA_SL_SEN0254_REAL11_L.mp4
+2025-08-14 16:40:49,061 - root - ERROR - 실행 중 오류 발생: Invalid suffix '_morpheme.json'
+2025-08-14 16:41:50,860 - data_preprocessor - INFO - 데이터셋 처리 시작...
+2025-08-14 16:41:50,862 - data_preprocessor - INFO - 발견된 MP4 파일: 320개
+2025-08-14 16:41:50,862 - data_preprocessor - INFO - 파일명 예시:
+2025-08-14 16:41:50,862 - data_preprocessor - INFO -   1. NIA_SL_SEN0254_REAL10_U.mp4
+2025-08-14 16:41:50,862 - data_preprocessor - INFO -   2. NIA_SL_SEN0254_REAL05_U.mp4
+2025-08-14 16:41:50,862 - data_preprocessor - INFO -   3. NIA_SL_SEN0254_REAL11_L.mp4
+2025-08-14 16:41:50,862 - data_preprocessor - INFO - 매칭 성공: NIA_SL_SEN0254_REAL10_U.mp4 → NIA_SL_SEN0254_REAL10_U_morpheme.json (패턴: _morpheme.json)
+2025-08-14 16:41:50,862 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL10_U.mp4
+2025-08-14 16:41:53,352 - data_preprocessor - INFO - 매칭 성공: NIA_SL_SEN0254_REAL05_U.mp4 → NIA_SL_SEN0254_REAL05_U_morpheme.json (패턴: _morpheme.json)
+2025-08-14 16:41:53,352 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL05_U.mp4
+2025-08-14 16:41:55,605 - data_preprocessor - INFO - 매칭 성공: NIA_SL_SEN0254_REAL11_L.mp4 → NIA_SL_SEN0254_REAL11_L_morpheme.json (패턴: _morpheme.json)
+2025-08-14 16:41:55,605 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL11_L.mp4
+2025-08-14 16:41:57,662 - data_preprocessor - INFO - 매칭 성공: NIA_SL_SEN0254_REAL01_F.mp4 → NIA_SL_SEN0254_REAL01_F_morpheme.json (패턴: _morpheme.json)
+2025-08-14 16:41:57,662 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL01_F.mp4
+2025-08-14 16:41:59,843 - data_preprocessor - INFO - 매칭 성공: NIA_SL_SEN0254_REAL04_U.mp4 → NIA_SL_SEN0254_REAL04_U_morpheme.json (패턴: _morpheme.json)
+2025-08-14 16:41:59,843 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL04_U.mp4
+2025-08-14 16:42:01,813 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL07_F.mp4
+2025-08-14 16:42:03,556 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL13_L.mp4
+2025-08-14 16:42:05,439 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL01_U.mp4
+2025-08-14 16:42:07,575 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL02_R.mp4
+2025-08-14 16:42:09,400 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL01_R.mp4
+2025-08-14 16:42:11,656 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL01_L.mp4
+2025-08-14 16:42:14,044 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL10_R.mp4
+2025-08-14 16:42:16,555 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL01_D.mp4
+2025-08-14 16:42:18,752 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL08_L.mp4
+2025-08-14 16:42:20,338 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL15_R.mp4
+2025-08-14 16:42:22,842 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL06_L.mp4
+2025-08-14 16:42:25,429 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL06_D.mp4
+2025-08-14 16:42:28,005 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL04_F.mp4
+2025-08-14 16:42:29,838 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL03_D.mp4
+2025-08-14 16:42:31,756 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL16_U.mp4
+2025-08-14 16:42:33,720 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL03_U.mp4
+2025-08-14 16:42:35,650 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL11_U.mp4
+2025-08-14 16:42:37,848 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL02_U.mp4
+2025-08-14 16:42:39,626 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL02_F.mp4
+2025-08-14 16:42:41,434 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL10_L.mp4
+2025-08-14 16:42:43,869 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL03_R.mp4
+2025-08-14 16:42:45,899 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL15_D.mp4
+2025-08-14 16:42:48,227 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL15_F.mp4
+2025-08-14 16:42:50,551 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL13_D.mp4
+2025-08-14 16:42:52,537 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL08_U.mp4
+2025-08-14 16:42:54,321 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL14_R.mp4
+2025-08-14 16:42:56,160 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL14_D.mp4
+2025-08-14 16:42:58,023 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL05_R.mp4
+2025-08-14 16:43:00,344 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL04_D.mp4
+2025-08-14 16:43:02,444 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL13_R.mp4
+2025-08-14 16:43:04,297 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL02_D.mp4
+2025-08-14 16:43:06,018 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL03_F.mp4
+2025-08-14 16:43:08,154 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL04_L.mp4
+2025-08-14 16:43:10,039 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL06_F.mp4
+2025-08-14 16:43:12,621 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL13_F.mp4
+2025-08-14 16:43:14,670 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL12_R.mp4
+2025-08-14 16:43:16,536 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL03_L.mp4
+2025-08-14 16:43:18,600 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL16_L.mp4
+2025-08-14 16:43:20,632 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL13_U.mp4
+2025-08-14 16:43:22,616 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL06_U.mp4
+2025-08-14 16:43:25,310 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL09_U.mp4
+2025-08-14 16:43:27,406 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL08_R.mp4
+2025-08-14 16:43:29,127 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL16_R.mp4
+2025-08-14 16:43:31,050 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL10_F.mp4
+2025-08-14 16:43:33,602 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL14_U.mp4
+2025-08-14 16:43:35,482 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL11_D.mp4
+2025-08-14 16:43:37,639 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL05_L.mp4
+2025-08-14 16:43:39,952 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL12_F.mp4
+2025-08-14 16:43:41,893 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL14_F.mp4
+2025-08-14 16:43:43,808 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL16_D.mp4
+2025-08-14 16:43:45,702 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL11_F.mp4
+2025-08-14 16:43:47,879 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL08_D.mp4
+2025-08-14 16:43:49,523 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL05_D.mp4
+2025-08-14 16:43:51,861 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL07_R.mp4
+2025-08-14 16:43:53,693 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL12_L.mp4
+2025-08-14 16:43:55,592 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL15_L.mp4
+2025-08-14 16:43:58,065 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL08_F.mp4
+2025-08-14 16:43:59,756 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL15_U.mp4
+2025-08-14 16:44:02,087 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL12_D.mp4
+2025-08-14 16:44:03,869 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL09_R.mp4
+2025-08-14 16:44:05,732 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL05_F.mp4
+2025-08-14 16:44:07,946 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL02_L.mp4
+2025-08-14 16:44:09,730 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL16_F.mp4
+2025-08-14 16:44:11,509 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL12_U.mp4
+2025-08-14 16:44:13,325 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL04_R.mp4
+2025-08-14 16:44:15,200 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL09_D.mp4
+2025-08-14 16:44:17,163 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL11_R.mp4
+2025-08-14 16:44:19,213 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL09_L.mp4
+2025-08-14 16:44:21,108 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL07_U.mp4
+2025-08-14 16:44:22,874 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL14_L.mp4
+2025-08-14 16:44:24,663 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL07_L.mp4
+2025-08-14 16:44:26,324 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL09_F.mp4
+2025-08-14 16:44:28,450 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL07_D.mp4
+2025-08-14 16:44:30,111 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL06_R.mp4
+2025-08-14 16:44:32,716 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0254_REAL10_D.mp4
+2025-08-14 16:44:35,079 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL10_L.mp4
+2025-08-14 16:44:37,326 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL09_U.mp4
+2025-08-14 16:44:38,944 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL16_L.mp4
+2025-08-14 16:44:40,834 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL10_F.mp4
+2025-08-14 16:44:43,089 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL07_L.mp4
+2025-08-14 16:44:44,552 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL01_L.mp4
+2025-08-14 16:44:46,265 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL05_D.mp4
+2025-08-14 16:44:47,673 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL07_U.mp4
+2025-08-14 16:44:49,182 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL04_L.mp4
+2025-08-14 16:44:50,746 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL15_U.mp4
+2025-08-14 16:44:52,681 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL07_F.mp4
+2025-08-14 16:44:54,091 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL13_R.mp4
+2025-08-14 16:44:55,734 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL02_F.mp4
+2025-08-14 16:44:57,375 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL08_F.mp4
+2025-08-14 16:44:58,980 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL06_R.mp4
+2025-08-14 16:45:00,918 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL09_R.mp4
+2025-08-14 16:45:02,413 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL09_L.mp4
+2025-08-14 16:45:03,999 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL06_U.mp4
+2025-08-14 16:45:05,741 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL14_U.mp4
+2025-08-14 16:45:07,362 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL01_F.mp4
+2025-08-14 16:45:09,011 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL06_L.mp4
+2025-08-14 16:45:10,722 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL10_D.mp4
+2025-08-14 16:45:12,783 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL06_D.mp4
+2025-08-14 16:45:14,512 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL11_L.mp4
+2025-08-14 16:45:16,060 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL11_D.mp4
+2025-08-14 16:45:17,591 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL04_F.mp4
+2025-08-14 16:45:19,227 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL15_R.mp4
+2025-08-14 16:45:21,205 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL07_D.mp4
+2025-08-14 16:45:22,581 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL15_D.mp4
+2025-08-14 16:45:24,488 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL02_R.mp4
+2025-08-14 16:45:26,130 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL13_L.mp4
+2025-08-14 16:45:27,823 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL11_R.mp4
+2025-08-14 16:45:29,500 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL15_L.mp4
+2025-08-14 16:45:31,483 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL11_U.mp4
+2025-08-14 16:45:33,085 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL16_U.mp4
+2025-08-14 16:45:34,924 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL05_R.mp4
+2025-08-14 16:45:36,488 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL08_D.mp4
+2025-08-14 16:45:38,137 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL03_D.mp4
+2025-08-14 16:45:39,819 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL08_L.mp4
+2025-08-14 16:45:41,451 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL16_F.mp4
+2025-08-14 16:45:43,251 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL10_R.mp4
+2025-08-14 16:45:45,395 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL15_F.mp4
+2025-08-14 16:45:47,275 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL09_F.mp4
+2025-08-14 16:45:48,859 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL16_R.mp4
+2025-08-14 16:45:50,731 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL05_L.mp4
+2025-08-14 16:45:52,332 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL12_U.mp4
+2025-08-14 16:45:53,616 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL14_F.mp4
+2025-08-14 16:45:55,304 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL14_L.mp4
+2025-08-14 16:45:57,121 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL12_L.mp4
+2025-08-14 16:45:58,486 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL16_D.mp4
+2025-08-14 16:46:00,274 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL09_D.mp4
+2025-08-14 16:46:01,775 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL03_L.mp4
+2025-08-14 16:46:03,512 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL03_U.mp4
+2025-08-14 16:46:05,173 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL05_F.mp4
+2025-08-14 16:46:06,613 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL02_D.mp4
+2025-08-14 16:46:08,141 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL06_F.mp4
+2025-08-14 16:46:09,929 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL13_D.mp4
+2025-08-14 16:46:11,500 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL05_U.mp4
+2025-08-14 16:46:13,069 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL12_D.mp4
+2025-08-14 16:46:14,407 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL01_D.mp4
+2025-08-14 16:46:16,013 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL04_D.mp4
+2025-08-14 16:46:17,627 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL08_R.mp4
+2025-08-14 16:46:19,248 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL04_U.mp4
+2025-08-14 16:46:20,827 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL08_U.mp4
+2025-08-14 16:46:22,366 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL01_R.mp4
+2025-08-14 16:46:24,099 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL13_F.mp4
+2025-08-14 16:46:25,550 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL02_U.mp4
+2025-08-14 16:46:27,237 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL12_F.mp4
+2025-08-14 16:46:28,574 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL03_R.mp4
+2025-08-14 16:46:30,179 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL01_U.mp4
+2025-08-14 16:46:31,844 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL07_R.mp4
+2025-08-14 16:46:33,302 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL04_R.mp4
+2025-08-14 16:46:34,981 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL03_F.mp4
+2025-08-14 16:46:36,696 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL12_R.mp4
+2025-08-14 16:46:38,042 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL11_F.mp4
+2025-08-14 16:46:39,546 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL02_L.mp4
+2025-08-14 16:46:41,233 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL14_D.mp4
+2025-08-14 16:46:43,051 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL14_R.mp4
+2025-08-14 16:46:44,740 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL13_U.mp4
+2025-08-14 16:46:46,270 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0354_REAL10_U.mp4
+2025-08-14 16:46:48,391 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL07_R.mp4
+2025-08-14 16:46:49,570 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL15_F.mp4
+2025-08-14 16:46:51,243 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL13_U.mp4
+2025-08-14 16:46:52,064 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL02_D.mp4
+2025-08-14 16:46:53,274 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL05_D.mp4
+2025-08-14 16:46:54,966 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL11_F.mp4
+2025-08-14 16:46:56,013 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL14_R.mp4
+2025-08-14 16:46:57,539 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL03_U.mp4
+2025-08-14 16:46:58,989 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL10_U.mp4
+2025-08-14 16:47:00,757 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL14_U.mp4
+2025-08-14 16:47:02,248 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL01_D.mp4
+2025-08-14 16:47:03,635 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL11_U.mp4
+2025-08-14 16:47:04,635 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL05_F.mp4
+2025-08-14 16:47:06,304 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL08_D.mp4
+2025-08-14 16:47:07,346 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL09_R.mp4
+2025-08-14 16:47:09,167 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL03_R.mp4
+2025-08-14 16:47:10,593 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL11_L.mp4
+2025-08-14 16:47:11,696 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL08_L.mp4
+2025-08-14 16:47:12,793 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL06_D.mp4
+2025-08-14 16:47:14,405 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL08_F.mp4
+2025-08-14 16:47:15,495 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL04_D.mp4
+2025-08-14 16:47:16,824 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL13_R.mp4
+2025-08-14 16:47:17,707 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL02_R.mp4
+2025-08-14 16:47:18,989 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL04_L.mp4
+2025-08-14 16:47:20,230 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL04_F.mp4
+2025-08-14 16:47:21,575 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL11_D.mp4
+2025-08-14 16:47:22,608 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL16_D.mp4
+2025-08-14 16:47:23,975 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL15_D.mp4
+2025-08-14 16:47:25,490 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL13_L.mp4
+2025-08-14 16:47:26,284 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL01_U.mp4
+2025-08-14 16:47:27,662 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL08_R.mp4
+2025-08-14 16:47:28,783 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL06_U.mp4
+2025-08-14 16:47:30,314 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL03_D.mp4
+2025-08-14 16:47:31,748 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL13_D.mp4
+2025-08-14 16:47:32,673 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL10_D.mp4
+2025-08-14 16:47:34,545 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL05_L.mp4
+2025-08-14 16:47:36,187 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL09_U.mp4
+2025-08-14 16:47:37,986 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL06_F.mp4
+2025-08-14 16:47:39,520 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL09_D.mp4
+2025-08-14 16:47:41,410 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL15_R.mp4
+2025-08-14 16:47:42,951 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL12_L.mp4
+2025-08-14 16:47:44,224 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL15_L.mp4
+2025-08-14 16:47:45,780 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL06_R.mp4
+2025-08-14 16:47:47,247 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL10_F.mp4
+2025-08-14 16:47:49,032 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL02_L.mp4
+2025-08-14 16:47:50,212 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL14_L.mp4
+2025-08-14 16:47:51,942 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL07_L.mp4
+2025-08-14 16:47:53,266 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL14_F.mp4
+2025-08-14 16:47:54,907 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL12_R.mp4
+2025-08-14 16:47:56,158 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL12_F.mp4
+2025-08-14 16:47:57,471 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL16_R.mp4
+2025-08-14 16:47:58,968 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL05_R.mp4
+2025-08-14 16:48:00,574 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL04_R.mp4
+2025-08-14 16:48:01,956 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL03_L.mp4
+2025-08-14 16:48:03,421 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL10_R.mp4
+2025-08-14 16:48:05,385 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL01_L.mp4
+2025-08-14 16:48:06,863 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL14_D.mp4
+2025-08-14 16:48:08,334 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL01_F.mp4
+2025-08-14 16:48:09,804 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL09_L.mp4
+2025-08-14 16:48:11,627 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL16_L.mp4
+2025-08-14 16:48:13,225 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL07_F.mp4
+2025-08-14 16:48:14,370 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL06_L.mp4
+2025-08-14 16:48:15,870 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL10_L.mp4
+2025-08-14 16:48:17,720 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL04_U.mp4
+2025-08-14 16:48:19,090 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL16_F.mp4
+2025-08-14 16:48:20,414 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL07_U.mp4
+2025-08-14 16:48:21,544 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL13_F.mp4
+2025-08-14 16:48:22,431 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL15_U.mp4
+2025-08-14 16:48:24,024 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL01_R.mp4
+2025-08-14 16:48:25,564 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL16_U.mp4
+2025-08-14 16:48:27,032 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL02_U.mp4
+2025-08-14 16:48:28,273 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL03_F.mp4
+2025-08-14 16:48:29,646 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL12_U.mp4
+2025-08-14 16:48:30,898 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL09_F.mp4
+2025-08-14 16:48:32,558 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL11_R.mp4
+2025-08-14 16:48:33,497 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL07_D.mp4
+2025-08-14 16:48:34,737 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL12_D.mp4
+2025-08-14 16:48:35,987 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL05_U.mp4
+2025-08-14 16:48:37,594 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL08_U.mp4
+2025-08-14 16:48:38,655 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0355_REAL02_F.mp4
+2025-08-14 16:48:39,739 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL04_D.mp4
+2025-08-14 16:48:40,882 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL01_L.mp4
+2025-08-14 16:48:42,504 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL08_L.mp4
+2025-08-14 16:48:43,226 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL03_U.mp4
+2025-08-14 16:48:44,398 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL15_R.mp4
+2025-08-14 16:48:45,729 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL10_F.mp4
+2025-08-14 16:48:47,005 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL02_L.mp4
+2025-08-14 16:48:48,156 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL04_F.mp4
+2025-08-14 16:48:49,340 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL05_U.mp4
+2025-08-14 16:48:51,391 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL15_U.mp4
+2025-08-14 16:48:52,666 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL08_R.mp4
+2025-08-14 16:48:53,324 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL15_F.mp4
+2025-08-14 16:48:54,559 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL13_R.mp4
+2025-08-14 16:48:55,646 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL12_U.mp4
+2025-08-14 16:48:56,658 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL11_U.mp4
+2025-08-14 16:48:57,979 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL02_U.mp4
+2025-08-14 16:48:59,178 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL01_F.mp4
+2025-08-14 16:49:00,558 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL10_D.mp4
+2025-08-14 16:49:01,825 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL11_D.mp4
+2025-08-14 16:49:03,296 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL07_F.mp4
+2025-08-14 16:49:04,527 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL16_D.mp4
+2025-08-14 16:49:05,552 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL08_U.mp4
+2025-08-14 16:49:06,301 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL09_F.mp4
+2025-08-14 16:49:07,479 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL07_R.mp4
+2025-08-14 16:49:08,635 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL14_R.mp4
+2025-08-14 16:49:09,950 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL02_R.mp4
+2025-08-14 16:49:11,214 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL12_F.mp4
+2025-08-14 16:49:12,229 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL09_U.mp4
+2025-08-14 16:49:13,420 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL11_F.mp4
+2025-08-14 16:49:14,841 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL02_F.mp4
+2025-08-14 16:49:15,964 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL12_L.mp4
+2025-08-14 16:49:17,088 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL13_L.mp4
+2025-08-14 16:49:18,102 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL01_D.mp4
+2025-08-14 16:49:19,414 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL13_U.mp4
+2025-08-14 16:49:20,494 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL13_D.mp4
+2025-08-14 16:49:21,529 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL07_D.mp4
+2025-08-14 16:49:22,864 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL03_R.mp4
+2025-08-14 16:49:24,014 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL09_R.mp4
+2025-08-14 16:49:25,175 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL05_R.mp4
+2025-08-14 16:49:27,239 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL15_D.mp4
+2025-08-14 16:49:28,573 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL07_U.mp4
+2025-08-14 16:49:29,863 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL16_F.mp4
+2025-08-14 16:49:30,867 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL08_F.mp4
+2025-08-14 16:49:31,738 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL09_D.mp4
+2025-08-14 16:49:32,960 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL06_U.mp4
+2025-08-14 16:49:33,962 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL14_U.mp4
+2025-08-14 16:49:35,250 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL06_D.mp4
+2025-08-14 16:49:36,307 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL11_R.mp4
+2025-08-14 16:49:37,801 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL03_F.mp4
+2025-08-14 16:49:38,928 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL06_L.mp4
+2025-08-14 16:49:39,937 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL14_D.mp4
+2025-08-14 16:49:41,152 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL09_L.mp4
+2025-08-14 16:49:42,482 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL01_U.mp4
+2025-08-14 16:49:43,763 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL12_R.mp4
+2025-08-14 16:49:44,771 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL05_L.mp4
+2025-08-14 16:49:46,847 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL03_L.mp4
+2025-08-14 16:49:47,969 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL10_U.mp4
+2025-08-14 16:49:49,232 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL05_F.mp4
+2025-08-14 16:49:51,224 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL10_L.mp4
+2025-08-14 16:49:52,462 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL14_F.mp4
+2025-08-14 16:49:53,734 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL02_D.mp4
+2025-08-14 16:49:54,860 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL10_R.mp4
+2025-08-14 16:49:56,204 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL04_R.mp4
+2025-08-14 16:49:57,464 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL11_L.mp4
+2025-08-14 16:49:58,935 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL13_F.mp4
+2025-08-14 16:50:00,057 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL04_U.mp4
+2025-08-14 16:50:01,244 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL06_R.mp4
+2025-08-14 16:50:02,393 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL14_L.mp4
+2025-08-14 16:50:03,619 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL16_U.mp4
+2025-08-14 16:50:04,597 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL16_R.mp4
+2025-08-14 16:50:05,666 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL15_L.mp4
+2025-08-14 16:50:06,998 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL12_D.mp4
+2025-08-14 16:50:08,065 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL06_F.mp4
+2025-08-14 16:50:09,200 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL03_D.mp4
+2025-08-14 16:50:10,389 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL08_D.mp4
+2025-08-14 16:50:11,357 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL01_R.mp4
+2025-08-14 16:50:12,709 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL05_D.mp4
+2025-08-14 16:50:14,760 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL07_L.mp4
+2025-08-14 16:50:16,222 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL16_L.mp4
+2025-08-14 16:50:17,462 - data_preprocessor - INFO - 처리 중: NIA_SL_SEN0019_REAL04_L.mp4
+2025-08-14 16:50:18,709 - data_preprocessor - INFO - 시퀀스 생성 중...
+2025-08-14 16:50:18,710 - data_preprocessor - INFO - 어휘 사전 구축 중...
+2025-08-14 16:50:18,710 - data_preprocessor - INFO - 데이터 저장 중...
+2025-08-14 16:50:18,779 - data_preprocessor - INFO - 데이터 저장 완료:
+2025-08-14 16:50:18,779 - data_preprocessor - INFO -   - 훈련 시퀀스: 288
+2025-08-14 16:50:18,779 - data_preprocessor - INFO -   - 검증 시퀀스: 72
+2025-08-14 16:50:18,779 - data_preprocessor - INFO -   - 어휘 크기: 12
+2025-08-14 16:50:18,779 - data_preprocessor - INFO - 전처리 완료!
+2025-08-14 16:52:01,937 - openhands_finetuner - INFO - 훈련 시작: 50 에포크
+2025-08-14 16:52:01,937 - openhands_finetuner - INFO - 디바이스: cpu
+2025-08-14 16:52:01,938 - openhands_finetuner - INFO - 모델 파라미터 수: 4,810,124
+2025-08-14 16:52:03,493 - openhands_finetuner - INFO - Epoch   1/50 | Train Loss: 2.0381 | Train Acc: 23.25% | Val Loss: 1.8426 | Val Acc: 25.00% | LR: 1.00e-04 | Time: 1.6s
+2025-08-14 16:52:03,512 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 25.00%
+2025-08-14 16:52:05,272 - openhands_finetuner - INFO - Epoch   2/50 | Train Loss: 1.7965 | Train Acc: 25.78% | Val Loss: 1.7065 | Val Acc: 25.00% | LR: 1.00e-04 | Time: 1.8s
+2025-08-14 16:52:08,451 - openhands_finetuner - INFO - Epoch   3/50 | Train Loss: 1.6279 | Train Acc: 35.24% | Val Loss: 1.4882 | Val Acc: 41.93% | LR: 1.00e-04 | Time: 3.2s
+2025-08-14 16:52:08,482 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 41.93%
+2025-08-14 16:52:10,293 - openhands_finetuner - INFO - Epoch   4/50 | Train Loss: 1.4069 | Train Acc: 43.66% | Val Loss: 1.4031 | Val Acc: 41.28% | LR: 1.00e-04 | Time: 1.8s
+2025-08-14 16:52:11,789 - openhands_finetuner - INFO - Epoch   5/50 | Train Loss: 1.2841 | Train Acc: 48.34% | Val Loss: 1.3333 | Val Acc: 42.97% | LR: 1.00e-04 | Time: 1.5s
+2025-08-14 16:52:11,855 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 42.97%
+2025-08-14 16:52:13,383 - openhands_finetuner - INFO - Epoch   6/50 | Train Loss: 1.1801 | Train Acc: 52.00% | Val Loss: 1.3798 | Val Acc: 38.67% | LR: 1.00e-04 | Time: 1.5s
+2025-08-14 16:52:14,964 - openhands_finetuner - INFO - Epoch   7/50 | Train Loss: 1.0758 | Train Acc: 57.49% | Val Loss: 1.1017 | Val Acc: 57.25% | LR: 1.00e-04 | Time: 1.6s
+2025-08-14 16:52:15,043 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 57.25%
+2025-08-14 16:52:16,603 - openhands_finetuner - INFO - Epoch   8/50 | Train Loss: 0.9909 | Train Acc: 65.10% | Val Loss: 1.1667 | Val Acc: 55.90% | LR: 1.00e-04 | Time: 1.6s
+2025-08-14 16:52:18,052 - openhands_finetuner - INFO - Epoch   9/50 | Train Loss: 0.9142 | Train Acc: 67.02% | Val Loss: 1.0913 | Val Acc: 55.43% | LR: 1.00e-04 | Time: 1.4s
+2025-08-14 16:52:19,527 - openhands_finetuner - INFO - Epoch  10/50 | Train Loss: 0.8660 | Train Acc: 68.46% | Val Loss: 0.9848 | Val Acc: 59.98% | LR: 1.00e-04 | Time: 1.5s
+2025-08-14 16:52:19,555 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 59.98%
+2025-08-14 16:52:21,554 - openhands_finetuner - INFO - Epoch  11/50 | Train Loss: 0.9172 | Train Acc: 66.50% | Val Loss: 0.8947 | Val Acc: 63.59% | LR: 1.00e-04 | Time: 2.0s
+2025-08-14 16:52:21,645 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 63.59%
+2025-08-14 16:52:23,136 - openhands_finetuner - INFO - Epoch  12/50 | Train Loss: 0.7790 | Train Acc: 72.86% | Val Loss: 1.2091 | Val Acc: 56.64% | LR: 1.00e-04 | Time: 1.5s
+2025-08-14 16:52:25,306 - openhands_finetuner - INFO - Epoch  13/50 | Train Loss: 0.8482 | Train Acc: 71.20% | Val Loss: 0.7719 | Val Acc: 68.58% | LR: 1.00e-04 | Time: 2.2s
+2025-08-14 16:52:25,334 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 68.58%
+2025-08-14 16:52:26,834 - openhands_finetuner - INFO - Epoch  14/50 | Train Loss: 0.7357 | Train Acc: 73.59% | Val Loss: 0.8696 | Val Acc: 66.41% | LR: 1.00e-04 | Time: 1.5s
+2025-08-14 16:52:28,312 - openhands_finetuner - INFO - Epoch  15/50 | Train Loss: 0.6943 | Train Acc: 73.81% | Val Loss: 1.0050 | Val Acc: 59.81% | LR: 1.00e-04 | Time: 1.5s
+2025-08-14 16:52:29,784 - openhands_finetuner - INFO - Epoch  16/50 | Train Loss: 0.7130 | Train Acc: 74.33% | Val Loss: 0.7998 | Val Acc: 70.44% | LR: 1.00e-04 | Time: 1.5s
+2025-08-14 16:52:29,815 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 70.44%
+2025-08-14 16:52:31,273 - openhands_finetuner - INFO - Epoch  17/50 | Train Loss: 0.6514 | Train Acc: 77.96% | Val Loss: 0.7819 | Val Acc: 67.66% | LR: 5.00e-05 | Time: 1.5s
+2025-08-14 16:52:32,820 - openhands_finetuner - INFO - Epoch  18/50 | Train Loss: 0.6113 | Train Acc: 78.45% | Val Loss: 0.7022 | Val Acc: 73.48% | LR: 5.00e-05 | Time: 1.5s
+2025-08-14 16:52:32,849 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 73.48%
+2025-08-14 16:52:34,312 - openhands_finetuner - INFO - Epoch  19/50 | Train Loss: 0.5313 | Train Acc: 82.71% | Val Loss: 0.7754 | Val Acc: 69.01% | LR: 5.00e-05 | Time: 1.5s
+2025-08-14 16:52:35,805 - openhands_finetuner - INFO - Epoch  20/50 | Train Loss: 0.5544 | Train Acc: 81.32% | Val Loss: 0.8091 | Val Acc: 66.71% | LR: 5.00e-05 | Time: 1.5s
+2025-08-14 16:52:37,315 - openhands_finetuner - INFO - Epoch  21/50 | Train Loss: 0.5302 | Train Acc: 80.28% | Val Loss: 0.6224 | Val Acc: 77.04% | LR: 5.00e-05 | Time: 1.5s
+2025-08-14 16:52:37,346 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 77.04%
+2025-08-14 16:52:38,918 - openhands_finetuner - INFO - Epoch  22/50 | Train Loss: 0.4832 | Train Acc: 83.63% | Val Loss: 0.6451 | Val Acc: 77.69% | LR: 5.00e-05 | Time: 1.6s
+2025-08-14 16:52:38,948 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 77.69%
+2025-08-14 16:52:41,057 - openhands_finetuner - INFO - Epoch  23/50 | Train Loss: 0.4917 | Train Acc: 83.02% | Val Loss: 0.5819 | Val Acc: 77.08% | LR: 5.00e-05 | Time: 2.1s
+2025-08-14 16:52:42,706 - openhands_finetuner - INFO - Epoch  24/50 | Train Loss: 0.5164 | Train Acc: 82.12% | Val Loss: 0.5644 | Val Acc: 78.39% | LR: 5.00e-05 | Time: 1.6s
+2025-08-14 16:52:42,737 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 78.39%
+2025-08-14 16:52:44,371 - openhands_finetuner - INFO - Epoch  25/50 | Train Loss: 0.5098 | Train Acc: 82.82% | Val Loss: 0.6370 | Val Acc: 77.95% | LR: 5.00e-05 | Time: 1.6s
+2025-08-14 16:52:46,285 - openhands_finetuner - INFO - Epoch  26/50 | Train Loss: 0.4580 | Train Acc: 84.72% | Val Loss: 0.5610 | Val Acc: 81.60% | LR: 5.00e-05 | Time: 1.9s
+2025-08-14 16:52:46,315 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 81.60%
+2025-08-14 16:52:47,807 - openhands_finetuner - INFO - Epoch  27/50 | Train Loss: 0.4495 | Train Acc: 86.09% | Val Loss: 0.8152 | Val Acc: 68.75% | LR: 5.00e-05 | Time: 1.5s
+2025-08-14 16:52:50,105 - openhands_finetuner - INFO - Epoch  28/50 | Train Loss: 0.4783 | Train Acc: 84.42% | Val Loss: 0.8693 | Val Acc: 67.88% | LR: 5.00e-05 | Time: 2.3s
+2025-08-14 16:52:51,992 - openhands_finetuner - INFO - Epoch  29/50 | Train Loss: 0.4508 | Train Acc: 84.44% | Val Loss: 0.5876 | Val Acc: 81.21% | LR: 5.00e-05 | Time: 1.9s
+2025-08-14 16:52:53,562 - openhands_finetuner - INFO - Epoch  30/50 | Train Loss: 0.4385 | Train Acc: 85.88% | Val Loss: 0.5708 | Val Acc: 82.94% | LR: 2.50e-05 | Time: 1.6s
+2025-08-14 16:52:53,634 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 82.94%
+2025-08-14 16:52:55,768 - openhands_finetuner - INFO - Epoch  31/50 | Train Loss: 0.3813 | Train Acc: 87.84% | Val Loss: 0.4879 | Val Acc: 83.12% | LR: 2.50e-05 | Time: 2.1s
+2025-08-14 16:52:55,798 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 83.12%
+2025-08-14 16:53:00,044 - openhands_finetuner - INFO - Epoch  32/50 | Train Loss: 0.4092 | Train Acc: 86.69% | Val Loss: 0.6796 | Val Acc: 75.43% | LR: 2.50e-05 | Time: 4.2s
+2025-08-14 16:53:01,904 - openhands_finetuner - INFO - Epoch  33/50 | Train Loss: 0.3916 | Train Acc: 87.81% | Val Loss: 0.5105 | Val Acc: 83.07% | LR: 2.50e-05 | Time: 1.9s
+2025-08-14 16:53:03,668 - openhands_finetuner - INFO - Epoch  34/50 | Train Loss: 0.3891 | Train Acc: 86.34% | Val Loss: 0.5900 | Val Acc: 80.30% | LR: 2.50e-05 | Time: 1.8s
+2025-08-14 16:53:05,343 - openhands_finetuner - INFO - Epoch  35/50 | Train Loss: 0.3700 | Train Acc: 88.47% | Val Loss: 0.5738 | Val Acc: 82.90% | LR: 1.25e-05 | Time: 1.7s
+2025-08-14 16:53:08,285 - openhands_finetuner - INFO - Epoch  36/50 | Train Loss: 0.3511 | Train Acc: 87.99% | Val Loss: 0.4847 | Val Acc: 83.51% | LR: 1.25e-05 | Time: 2.9s
+2025-08-14 16:53:08,316 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 83.51%
+2025-08-14 16:53:09,918 - openhands_finetuner - INFO - Epoch  37/50 | Train Loss: 0.3658 | Train Acc: 88.06% | Val Loss: 0.4893 | Val Acc: 82.90% | LR: 1.25e-05 | Time: 1.6s
+2025-08-14 16:53:11,471 - openhands_finetuner - INFO - Epoch  38/50 | Train Loss: 0.3816 | Train Acc: 87.80% | Val Loss: 0.6901 | Val Acc: 78.47% | LR: 1.25e-05 | Time: 1.6s
+2025-08-14 16:53:13,011 - openhands_finetuner - INFO - Epoch  39/50 | Train Loss: 0.3512 | Train Acc: 88.69% | Val Loss: 0.5164 | Val Acc: 83.85% | LR: 1.25e-05 | Time: 1.5s
+2025-08-14 16:53:13,042 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 83.85%
+2025-08-14 16:53:14,581 - openhands_finetuner - INFO - Epoch  40/50 | Train Loss: 0.3406 | Train Acc: 89.51% | Val Loss: 0.5893 | Val Acc: 80.30% | LR: 6.25e-06 | Time: 1.5s
+2025-08-14 16:53:16,067 - openhands_finetuner - INFO - Epoch  41/50 | Train Loss: 0.3531 | Train Acc: 87.84% | Val Loss: 0.4886 | Val Acc: 83.33% | LR: 6.25e-06 | Time: 1.5s
+2025-08-14 16:53:17,540 - openhands_finetuner - INFO - Epoch  42/50 | Train Loss: 0.3241 | Train Acc: 89.55% | Val Loss: 0.4908 | Val Acc: 83.59% | LR: 6.25e-06 | Time: 1.5s
+2025-08-14 16:53:18,986 - openhands_finetuner - INFO - Epoch  43/50 | Train Loss: 0.3518 | Train Acc: 89.30% | Val Loss: 0.5028 | Val Acc: 84.33% | LR: 6.25e-06 | Time: 1.4s
+2025-08-14 16:53:19,057 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 84.33%
+2025-08-14 16:53:21,188 - openhands_finetuner - INFO - Epoch  44/50 | Train Loss: 0.3056 | Train Acc: 90.95% | Val Loss: 0.5021 | Val Acc: 84.03% | LR: 3.13e-06 | Time: 2.1s
+2025-08-14 16:53:22,643 - openhands_finetuner - INFO - Epoch  45/50 | Train Loss: 0.3413 | Train Acc: 88.47% | Val Loss: 0.5203 | Val Acc: 83.12% | LR: 3.13e-06 | Time: 1.5s
+2025-08-14 16:53:24,242 - openhands_finetuner - INFO - Epoch  46/50 | Train Loss: 0.3573 | Train Acc: 87.55% | Val Loss: 0.4840 | Val Acc: 84.38% | LR: 3.13e-06 | Time: 1.6s
+2025-08-14 16:53:24,271 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 84.38%
+2025-08-14 16:53:25,794 - openhands_finetuner - INFO - Epoch  47/50 | Train Loss: 0.3290 | Train Acc: 90.19% | Val Loss: 0.5154 | Val Acc: 83.16% | LR: 3.13e-06 | Time: 1.5s
+2025-08-14 16:53:27,267 - openhands_finetuner - INFO - Epoch  48/50 | Train Loss: 0.3377 | Train Acc: 89.40% | Val Loss: 0.4598 | Val Acc: 85.50% | LR: 3.13e-06 | Time: 1.5s
+2025-08-14 16:53:27,298 - openhands_finetuner - INFO - 새로운 최고 성능 모델 저장: 85.50%
+2025-08-14 16:53:31,270 - openhands_finetuner - INFO - Epoch  49/50 | Train Loss: 0.3404 | Train Acc: 88.95% | Val Loss: 0.5089 | Val Acc: 82.68% | LR: 3.13e-06 | Time: 4.0s
+2025-08-14 16:53:32,753 - openhands_finetuner - INFO - Epoch  50/50 | Train Loss: 0.3270 | Train Acc: 89.70% | Val Loss: 0.4857 | Val Acc: 85.42% | LR: 3.13e-06 | Time: 1.5s
+2025-08-14 16:53:32,793 - openhands_finetuner - INFO - 훈련 완료!

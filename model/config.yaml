@@ -1,0 +1,189 @@
+# 한국 수어 인식 시스템 설정 파일
+
+# 데이터 설정
+data:
+  # AIHub 원본 데이터 경로
+  raw_data_dir: "./aihub_data"
+  
+  # 전처리된 데이터 저장 경로
+  processed_data_dir: "./processed_data"
+  
+  # 시퀀스 길이 (프레임 수)
+  sequence_length: 32
+  
+  # 훈련/검증 데이터 분할 비율
+  train_ratio: 0.8
+  
+  # 데이터 로더 설정
+  batch_size: 16
+  num_workers: 4
+  pin_memory: true
+
+# 모델 설정
+model:
+  # 입력 특징 차원 (손 랜드마크 126 + 포즈 랜드마크 18)
+  input_dim: 144
+  
+  # Transformer 모델 차원
+  d_model: 256
+  
+  # 어텐션 헤드 수
+  n_heads: 8
+  
+  # Transformer 레이어 수
+  n_layers: 6
+  
+  # 드롭아웃 비율
+  dropout: 0.1
+  
+  # 최대 시퀀스 길이
+  max_seq_length: 64
+
+# 훈련 설정
+training:
+  # 에포크 수
+  num_epochs: 50
+  
+  # 학습률
+  learning_rate: 1.0e-4
+  
+  # 가중치 감쇠
+  weight_decay: 1.0e-5
+  
+  # 배치 크기
+  batch_size: 16
+  
+  # Early stopping patience
+  early_stopping_patience: 10
+  
+  # 모델 저장 주기
+  save_every: 5
+  
+  # 그래디언트 클리핑
+  max_grad_norm: 1.0
+
+# 하드웨어 설정
+hardware:
+  # 디바이스 우선순위: ["intel_gpu", "cuda", "cpu"]
+  device_priority: ["intel_gpu", "cuda", "cpu"]
+  
+  # Intel GPU 최적화 활성화
+  use_intel_optimization: true
+  
+  # 혼합 정밀도 훈련
+  use_mixed_precision: false
+  
+  # 메모리 효율적 어텐션
+  use_memory_efficient_attention: true
+
+# MediaPipe 설정
+mediapipe:
+  hands:
+    # 정적 이미지 모드
+    static_image_mode: false
+    
+    # 최대 손 개수
+    max_num_hands: 2
+    
+    # 검출 신뢰도 임계값
+    min_detection_confidence: 0.7
+    
+    # 추적 신뢰도 임계값
+    min_tracking_confidence: 0.5
+  
+  pose:
+    # 정적 이미지 모드
+    static_image_mode: false
+    
+    # 검출 신뢰도 임계값
+    min_detection_confidence: 0.7
+    
+    # 추적 신뢰도 임계값
+    min_tracking_confidence: 0.5
+
+# 전처리 설정
+preprocessing:
+  # 비디오 리사이즈 해상도
+  video_resize: [640, 480]
+  
+  # FPS 표준화
+  target_fps: 30
+  
+  # 데이터 증강
+  augmentation:
+    # 랜덤 크롭
+    random_crop: true
+    crop_ratio: [0.8, 1.0]
+    
+    # 랜덤 플립 (좌우 반전)
+    random_flip: false  # 수어의 경우 의미 변경 가능
+    
+    # 노이즈 추가
+    add_noise: true
+    noise_std: 0.01
+    
+    # 시간 축 변형
+    time_stretch: true
+    stretch_ratio: [0.8, 1.2]
+
+# 로깅 설정
+logging:
+  # 로그 레벨
+  level: "INFO"
+  
+  # 로그 파일
+  log_file: "korean_sign_recognition.log"
+  
+  # TensorBoard 로그 디렉토리
+  tensorboard_dir: "./logs"
+  
+  # Weights & Biases 설정
+  wandb:
+    enabled: false
+    project: "korean-sign-language"
+    entity: "your-username"
+
+# 저장 경로 설정
+paths:
+  # 모델 저장 디렉토리
+  model_save_dir: "./models"
+  
+  # 체크포인트 저장 디렉토리
+  checkpoint_dir: "./checkpoints"
+  
+  # 결과 저장 디렉토리
+  results_dir: "./results"
+  
+  # 캐시 디렉토리
+  cache_dir: "./cache"
+
+# 추론 설정
+inference:
+  # 신뢰도 임계값
+  confidence_threshold: 0.5
+  
+  # 배치 크기
+  batch_size: 1
+  
+  # 실시간 처리 모드
+  real_time_mode: true
+  
+  # 후처리 필터링
+  post_processing:
+    # 중복 제거
+    remove_duplicates: true
+    
+    # 평활화
+    smoothing: true
+    smoothing_window: 3
+
+# 검증 설정
+evaluation:
+  # 평가 메트릭
+  metrics: ["accuracy", "bleu", "edit_distance"]
+  
+  # 검증 주기
+  eval_every: 1
+  
+  # 테스트 데이터 비율
+  test_ratio: 0.1

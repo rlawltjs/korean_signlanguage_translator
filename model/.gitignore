@@ -1,0 +1,5 @@
+venv/
+processed_data/
+models/
+aihub_data/
+__pycache__/
