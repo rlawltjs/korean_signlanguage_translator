@@ -57,7 +57,7 @@ AIHub 데이터셋을 활용한 한국 수어 인식 및 실시간 번역 시스
 
 ```
 korean_sign_language_recognition/
-├── model/                          # 모델 개발 및 훈련
+├── model/                           # 모델 개발 및 훈련
 │   ├── main.py                     # 전체 파이프라인 실행
 │   ├── openhands_finetuner.py      # 모델 정의 및 훈련
 │   ├── data_preprocessor.py        # 데이터 전처리
@@ -68,14 +68,15 @@ korean_sign_language_recognition/
 │   ├── processed_data/             # 전처리된 데이터
 │   └── models/                     # 훈련된 수어 인식 모델
 │
-├── server/                         # 실시간 서버 및 클라이언트
+├── server/                          # 실시간 서버 및 클라이언트
 │   ├── model.pt                    # 포즈 추정 모델
 │   ├── enhanced_pose_server.py     # 통합 포즈/수어 서버
 │   ├── enhanced_webcam_client.py   # 웹캠 클라이언트
 │   ├── flask_web_interface.py      # Flask 웹 인터페이스
 │   ├── class_to_idx.py             # 클래스 매핑 추출
 │   ├── templates/                  # HTML 템플릿
-│   └── configs/                    # MMPose 설정 파일
+│   ├── configs/                    # MMPose 설정 파일
+│   └── models/                     # MMPose 모델 파일
 │
 └── README.md
 ```
