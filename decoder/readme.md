@@ -1,8 +1,8 @@
-# 한국 수어 인식 및 번역 시스템
+# 한국 수어 인식 및 번역 시스템 (수정중)
 
 OpenHands 모델 기반의 한국어 수어 비디오를 자연어 텍스트로 변환하는 AI 시스템입니다.
 
-## 🚀 주요 기능
+## 🚀 주요 기능 (테스트중)
 
 - **단계적 학습**: 단어 단위 → 문장 단위 점진적 학습
 - **Encoder-Decoder 아키텍처**: OpenHands (수어) + 한국어 LLM (텍스트)
@@ -400,33 +400,6 @@ export USE_INTEL_GPU=0
 2. **Mixed Precision**: AMP 사용으로 메모리 절약 및 속도 향상
 3. **모델 병렬화**: 큰 모델의 경우 DataParallel 사용
 4. **캐시 활용**: 전처리된 특징을 디스크에 캐시
-
-## 📊 벤치마크 결과
-
-| 모델 | BLEU Score | 추론 속도 (FPS) | 메모리 사용량 |
-|------|------------|----------------|-------------|
-| 기본 모델 | 0.65 | 15 | 4GB |
-| + 빔 서치 | 0.72 | 8 | 4GB |
-| + 문맥 메모리 | 0.76 | 12 | 5GB |
-| + 모든 기능 | 0.81 | 6 | 6GB |
-
-## 🤝 기여하기
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 라이선스
-
-이 프로젝트는 MIT 라이선스를 따릅니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
-
-## 📞 지원
-
-- 이슈 리포트: [GitHub Issues](https://github.com/your-repo/korean-sign-recognition/issues)
-- 이메일: your-email@example.com
-- 문서: [Wiki](https://github.com/your-repo/korean-sign-recognition/wiki)
 
 ## 🙏 감사의 말
 
