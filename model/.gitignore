@@ -4,3 +4,4 @@ models/
 aihub_data/
 __pycache__/
 korean_sign_recognition.log
+*.pt
