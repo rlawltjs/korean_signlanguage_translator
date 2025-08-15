@@ -75,6 +75,7 @@ korean_sign_language_recognition/
 │   ├── flask_web_interface.py      # Flask 웹 인터페이스
 │   ├── class_to_idx.py             # 클래스 매핑 추출
 │   ├── templates/                  # HTML 템플릿
+│   ├── models/                     # MMPose 모델 파일
 │   └── configs/                    # MMPose 설정 파일
 │
 └── README.md
